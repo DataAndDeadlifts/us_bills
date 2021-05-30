@@ -1,0 +1,14 @@
+name: us_bills
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python = 3.8
+  - jupyterlab
+  - pip
+  - pip:
+      - defusedxml
+      - numpy
+      - pandas
+      - pyyaml
+      - requests
